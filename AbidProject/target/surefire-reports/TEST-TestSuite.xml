@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="23.676" tests="70" errors="0" skipped="2" failures="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Karthick Kumar\.jenkins\workspace\KishoreAndRakeshProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KARTHI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\lenovo\easyplussdk\bin;C:\Program Files (x86)\Common Files\Adobe\AGL;E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin;C:\Program Files\nodejs\;C:\Users\Karthick Kumar\AppData\Roaming\npm;C:\Program Files\dotnet\;E:\software\sdk\platform-tools;E:\software\sdk\tools;E:\software\sdk\build-tools;C:\Program Files\Java\jdk1.8.0_73\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Karthick Kumar\AppData\Roaming\npm;C:\Program Files\JetBrains\RubyMine 2020.1.2\bin;;."/>
+    <property name="maven.conf" value="E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="library.jansi.path" value="E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Karthick Kumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Karthick Kumar"/>
+    <property name="java.class.path" value="E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -f E:\SeleniumAutomation\2020\AbidProject\pom.xml test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\software\apache-maven-3.5.4-bin\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="b_m1" classname="com.testng.basics.AnnotatinSample" time="4.093">
+    <failure message="expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+b_m1 test case started
+The name of the testcase failed is :b_m1
+]]></system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 26898
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14029
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfulCly.hromeDriver was started su
+ccessfully.
+[1598680338.442][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+[1598680338.533][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Aug 29, 2020 11:22:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Aug 29, 2020 11:22:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 11042
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598680341.601][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Aug 29, 2020 11:22:22 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0.014"/>
+  <testcase name="c_m1" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="m2" classname="com.testng.basics.AnnotatinSample2" time="0.002"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="a_m2" classname="com.testng.basics.AnnotatinSample" time="0.453"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0.011">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.c_m3(AnnotatinSample.java:111)
+</failure>
+    <system-out>c_m3 test case started
+The name of the testcase failed is :c_m3
+</system-out>
+  </testcase>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample" time="0.001">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.m4(AnnotatinSample.java:119)
+</failure>
+    <system-out>m4 test case started
+The name of the testcase failed is :m4
+</system-out>
+  </testcase>
+  <testcase name="b_m1" classname="com.testng.basics.AnnotatinSample" time="1.542">
+    <failure message="expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+</failure>
+    <system-out>The name of the testcase failed is :b_m1
+</system-out>
+    <system-err>Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 7052
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1598680352.317][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+</system-err>
+  </testcase>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.774"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.59"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.589"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.708"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.845"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.639"/>
+  <testcase name="b_m1" classname="com.testng.basics.AnnotatinSample" time="0.072">
+    <failure message="expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+</failure>
+    <system-out>b_m1 test case started
+The name of the testcase failed is :b_m1
+</system-out>
+  </testcase>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="c_m1" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample2" time="0.001"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="m2" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="a_m2" classname="com.testng.basics.AnnotatinSample" time="0.417"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.526"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.484"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.448"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.496"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.829"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.427"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.424"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.452"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.515"/>
+  <testcase name="b_m1" classname="com.testng.basics.XmlSample" time="0">
+    <skipped/>
+    <system-out>The name of the testcase Skipped is :b_m1
+</system-out>
+  </testcase>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="c_m1" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample" time="0.001"/>
+  <testcase name="m2" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="a_m2" classname="com.testng.basics.AnnotatinSample" time="0.87"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0.002">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.c_m3(AnnotatinSample.java:111)
+</failure>
+    <system-out>b_m1 test case started
+c_m3 test case started
+The name of the testcase failed is :c_m3
+</system-out>
+  </testcase>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample" time="0.002">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.m4(AnnotatinSample.java:119)
+</failure>
+    <system-out>m4 test case started
+The name of the testcase failed is :m4
+</system-out>
+  </testcase>
+  <testcase name="b_m1" classname="com.testng.basics.AnnotatinSample" time="0.286">
+    <failure message="expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+</failure>
+    <system-out>The name of the testcase failed is :b_m1
+</system-out>
+  </testcase>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.64"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.414"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.461"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.412"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.426"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.41"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.412"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.391"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.396"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.4"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.551"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.404"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.404"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.404"/>
+  <testcase name="b_m1" classname="com.testng.basics.XlsSample" time="0.422"/>
+  <testcase name="b_m1" classname="com.testng.basics.XmlSample" time="0">
+    <skipped/>
+    <system-out>The name of the testcase Skipped is :b_m1
+</system-out>
+  </testcase>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="c_m1" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="c_m3" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample" time="0"/>
+  <testcase name="m2" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="m4" classname="com.testng.basics.AnnotatinSample2" time="0"/>
+  <testcase name="a_m2" classname="com.testng.basics.AnnotatinSample" time="0.616"/>
+</testsuite>

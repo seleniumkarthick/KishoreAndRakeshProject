@@ -1,0 +1,4 @@
+com\product\admin\pages\AddCategoryPage.class
+com\product\admin\pages\CategoryListingPage.class
+com\product\admin\pages\LoginPage.class
+com\product\admin\pages\DashboardPage.class

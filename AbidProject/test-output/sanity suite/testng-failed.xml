@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity suite]">
+  <test name="test1">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+      <class name="com.testng.basics.AnnotatinSample2"/>
+    </classes>
+  </test> <!-- test1 -->
+  <test name="run package">
+    <packages>
+      <package name="com.testng.basics"/>
+    </packages>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+      <class name="com.testng.basics.AnnotatinSample2"/>
+    </classes>
+  </test> <!-- run package -->
+  <test name="run method">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="c_m3"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </classes>
+  </test> <!-- run method -->
+  <test name="run group">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+    </classes>
+  </test> <!-- run group -->
+  <test name="test1(failed)">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="b_m1"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="run package(failed)">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="b_m1"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </classes>
+  </test> <!-- run package(failed) -->
+</suite> <!-- Failed suite [sanity suite] -->

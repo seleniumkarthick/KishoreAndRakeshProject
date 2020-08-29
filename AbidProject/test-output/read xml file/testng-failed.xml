@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [read xml file]">
+  <parameter name="password" value="admin"/>
+  <parameter name="username" value="admin"/>
+  <test name="run test">
+    <classes>
+      <class name="com.testng.basics.XmlSample"/>
+    </classes>
+  </test> <!-- run test -->
+</suite> <!-- Failed suite [read xml file] -->

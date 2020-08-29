@@ -1,0 +1,110 @@
+<suite name="sanity suite" parallel="tests" thread-count="2">
+    
+     <test name="test1">
+        
+        <classes>
+            
+            <class name="com.testng.basics.AnnotatinSample"></class>
+            <class name="com.testng.basics.AnnotatinSample2"></class>
+            
+        </classes>
+        
+    </test>
+    
+    
+    <test name="run package">
+        
+        <packages>
+            <package name="com.testng.basics"></package>
+        </packages>
+        
+    </test>
+    
+     
+    <test name="run method">
+        
+       <classes>
+            
+            <class name="com.testng.basics.AnnotatinSample">
+                
+                <methods><include name="c_m3"></include></methods>
+                
+            </class>
+          
+
+            
+        </classes>
+        
+    </test> 
+    
+    <test name="run group">
+     <groups>
+	    <run>
+	     
+	      <include name="sanity"  />
+	    </run>
+	  </groups>
+	  
+	  <classes>
+	   <class name="com.testng.basics.AnnotatinSample"></class>
+	  </classes>
+	  
+    </test>
+    
+    
+     <test name="test12">
+        
+        <classes>
+            
+            <class name="com.testng.basics.AnnotatinSample"></class>
+            <class name="com.testng.basics.AnnotatinSample2"></class>
+            
+        </classes>
+        
+    </test>
+    
+    
+    <test name="run package1">
+        
+        <packages>
+            <package name="com.testng.basics"></package>
+        </packages>
+        
+    </test>
+    
+     
+    <test name="run method1">
+        
+       <classes>
+            
+            <class name="com.testng.basics.AnnotatinSample">
+                
+                <methods><include name="c_m3"></include></methods>
+                
+            </class>
+          
+
+            
+        </classes>
+        
+    </test> 
+    
+    <test name="run group1">
+     <groups>
+	    <run>
+	     
+	      <include name="sanity"  />
+	    </run>
+	  </groups>
+	  
+	  <classes>
+	   <class name="com.testng.basics.AnnotatinSample"></class>
+	  </classes>
+	  
+    </test>
+    
+    
+    
+    
+    
+</suite>

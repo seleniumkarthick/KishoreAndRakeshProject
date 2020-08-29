@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="8" total="70" passed="60">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sanity suite" duration-ms="52111" started-at="2020-08-29T05:52:16Z" finished-at="2020-08-29T05:53:08Z">
+    <groups>
+      <group name="regression">
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@35fb3008]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@39fb3ab6]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@6537cf78]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@35fb3008]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@35fb3008]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@69d9c55]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@39fb3ab6]" name="c_m3" class="com.testng.basics.AnnotatinSample"/>
+        <method signature="AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@39fb3ab6]" name="m4" class="com.testng.basics.AnnotatinSample"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="test1" duration-ms="10367" started-at="2020-08-29T05:52:16Z" finished-at="2020-08-29T05:52:26Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="setup" is-config="true" duration-ms="4300" started-at="2020-08-29T11:22:16Z" finished-at="2020-08-29T11:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="b_m1" duration-ms="4081" started-at="2020-08-29T11:22:20Z" finished-at="2020-08-29T11:22:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="getResult" is-config="true" duration-ms="11" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=b_m1 status=FAILURE method=AnnotatinSample.b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=c_m3 status=SUCCESS method=AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="m4" duration-ms="0" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=m4 status=SUCCESS method=AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="a_m2" duration-ms="460" started-at="2020-08-29T11:22:24Z" depends-on-methods="com.testng.basics.AnnotatinSample.b_m1" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_m2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=a_m2 status=SUCCESS method=AnnotatinSample.a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.AnnotatinSample@3d8c7aca]" name="teardown" is-config="true" duration-ms="1481" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.AnnotatinSample2">
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample2@21bcffb5]" name="c_m3" duration-ms="1" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="c_m1()[pri:3, instance:com.testng.basics.AnnotatinSample2@21bcffb5]" name="c_m1" duration-ms="0" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m1 -->
+        <test-method status="PASS" signature="m2()[pri:4, instance:com.testng.basics.AnnotatinSample2@21bcffb5]" name="m2" duration-ms="0" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample2@21bcffb5]" name="m4" duration-ms="1" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- com.testng.basics.AnnotatinSample2 -->
+    </test> <!-- test1 -->
+    <test name="run method" duration-ms="3913" started-at="2020-08-29T05:52:26Z" finished-at="2020-08-29T05:52:30Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.AnnotatinSample@6537cf78]" name="setup" is-config="true" duration-ms="3090" started-at="2020-08-29T11:22:26Z" finished-at="2020-08-29T11:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@6537cf78]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:22:29Z" finished-at="2020-08-29T11:22:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@6537cf78]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:22:29Z" finished-at="2020-08-29T11:22:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=c_m3 status=SUCCESS method=AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@6537cf78] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.AnnotatinSample@6537cf78]" name="teardown" is-config="true" duration-ms="821" started-at="2020-08-29T11:22:29Z" finished-at="2020-08-29T11:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </test> <!-- run method -->
+    <test name="run group" duration-ms="14" started-at="2020-08-29T05:52:30Z" finished-at="2020-08-29T05:52:30Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="FAIL" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@35fb3008]" name="c_m3" duration-ms="1" started-at="2020-08-29T11:22:30Z" finished-at="2020-08-29T11:22:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.testng.basics.AnnotatinSample.c_m3(AnnotatinSample.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="FAIL" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample@35fb3008]" name="m4" duration-ms="0" started-at="2020-08-29T11:22:30Z" finished-at="2020-08-29T11:22:30Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.testng.basics.AnnotatinSample.m4(AnnotatinSample.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </test> <!-- run group -->
+    <test name="test12" duration-ms="9088" started-at="2020-08-29T05:52:30Z" finished-at="2020-08-29T05:52:39Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="setup" is-config="true" duration-ms="4064" started-at="2020-08-29T11:22:30Z" finished-at="2020-08-29T11:22:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="b_m1" duration-ms="3454" started-at="2020-08-29T11:22:34Z" finished-at="2020-08-29T11:22:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="getResult" is-config="true" duration-ms="3" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=b_m1 status=FAILURE method=AnnotatinSample.b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@531be3c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=c_m3 status=SUCCESS method=AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@531be3c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="m4" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=m4 status=SUCCESS method=AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@531be3c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="a_m2" duration-ms="416" started-at="2020-08-29T11:22:38Z" depends-on-methods="com.testng.basics.AnnotatinSample.b_m1" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_m2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="teardown" is-config="true" duration-ms="1144" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@531be3c5]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=a_m2 status=SUCCESS method=AnnotatinSample.a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@531be3c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.AnnotatinSample2">
+        <test-method status="PASS" signature="c_m1()[pri:3, instance:com.testng.basics.AnnotatinSample2@735b478]" name="c_m1" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m1 -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample2@735b478]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample2@735b478]" name="m4" duration-ms="1" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="m2()[pri:4, instance:com.testng.basics.AnnotatinSample2@735b478]" name="m2" duration-ms="0" started-at="2020-08-29T11:22:38Z" finished-at="2020-08-29T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- com.testng.basics.AnnotatinSample2 -->
+    </test> <!-- test12 -->
+    <test name="run package" duration-ms="30334" started-at="2020-08-29T05:52:16Z" finished-at="2020-08-29T05:52:46Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="setup" is-config="true" duration-ms="4264" started-at="2020-08-29T11:22:16Z" finished-at="2020-08-29T11:22:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.XlsSample@47f6473]" name="setup" is-config="true" duration-ms="4582" started-at="2020-08-29T11:22:20Z" finished-at="2020-08-29T11:22:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.XmlSample@15975490]" name="setup" is-config="true" duration-ms="2566" started-at="2020-08-29T11:22:24Z" finished-at="2020-08-29T11:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="b_m1" duration-ms="4917" started-at="2020-08-29T11:22:27Z" finished-at="2020-08-29T11:22:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:22:32Z" finished-at="2020-08-29T11:22:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=b_m1 status=FAILURE method=AnnotatinSample.b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=c_m3 status=SUCCESS method=AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="m4" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=m4 status=SUCCESS method=AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="a_m2" duration-ms="870" started-at="2020-08-29T11:22:42Z" depends-on-methods="com.testng.basics.AnnotatinSample.b_m1" finished-at="2020-08-29T11:22:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_m2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:43Z" finished-at="2020-08-29T11:22:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=a_m2 status=SUCCESS method=AnnotatinSample.a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@90f6bfd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.AnnotatinSample@90f6bfd]" name="teardown" is-config="true" duration-ms="1792" started-at="2020-08-29T11:22:43Z" finished-at="2020-08-29T11:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.XmlSample@15975490]" name="teardown" is-config="true" duration-ms="722" started-at="2020-08-29T11:22:45Z" finished-at="2020-08-29T11:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.XlsSample@47f6473]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:45Z" finished-at="2020-08-29T11:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.AnnotatinSample2">
+        <test-method status="PASS" signature="c_m1()[pri:3, instance:com.testng.basics.AnnotatinSample2@1936f0f5]" name="c_m1" duration-ms="1" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m1 -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample2@1936f0f5]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="m2()[pri:4, instance:com.testng.basics.AnnotatinSample2@1936f0f5]" name="m2" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample2@1936f0f5]" name="m4" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- com.testng.basics.AnnotatinSample2 -->
+      <class name="com.testng.basics.XlsSample">
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="774" started-at="2020-08-29T11:22:33Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="741" started-at="2020-08-29T11:22:34Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="591" started-at="2020-08-29T11:22:35Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="705" started-at="2020-08-29T11:22:36Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="846" started-at="2020-08-29T11:22:36Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test5@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="639" started-at="2020-08-29T11:22:37Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test6@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="606" started-at="2020-08-29T11:22:38Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test7@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="483" started-at="2020-08-29T11:22:38Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test8@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="436" started-at="2020-08-29T11:22:39Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test9@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="514" started-at="2020-08-29T11:22:39Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test10@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="829" started-at="2020-08-29T11:22:40Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test11@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="428" started-at="2020-08-29T11:22:41Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="426" started-at="2020-08-29T11:22:41Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test13@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="452" started-at="2020-08-29T11:22:42Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test14@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@47f6473]" name="b_m1" duration-ms="514" started-at="2020-08-29T11:22:42Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test15@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+      </class> <!-- com.testng.basics.XlsSample -->
+      <class name="com.testng.basics.XmlSample">
+        <test-method status="SKIP" signature="b_m1(java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XmlSample@15975490]" name="b_m1" duration-ms="0" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:42Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method b_m1 but has not been marked @Optional or defined
+in E:\SeleniumAutomation\2020\AbidProject\Sanity.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method b_m1 but has not been marked @Optional or defined
+in E:\SeleniumAutomation\2020\AbidProject\Sanity.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+      </class> <!-- com.testng.basics.XmlSample -->
+    </test> <!-- run package -->
+    <test name="run method1" duration-ms="8459" started-at="2020-08-29T05:52:46Z" finished-at="2020-08-29T05:52:54Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.AnnotatinSample@69d9c55]" name="setup" is-config="true" duration-ms="4222" started-at="2020-08-29T11:22:46Z" finished-at="2020-08-29T11:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@69d9c55]" name="c_m3" duration-ms="1" started-at="2020-08-29T11:22:50Z" finished-at="2020-08-29T11:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@69d9c55]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:22:50Z" finished-at="2020-08-29T11:22:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=c_m3 status=SUCCESS method=AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@69d9c55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.AnnotatinSample@69d9c55]" name="teardown" is-config="true" duration-ms="4234" started-at="2020-08-29T11:22:50Z" finished-at="2020-08-29T11:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </test> <!-- run method1 -->
+    <test name="run group1" duration-ms="4" started-at="2020-08-29T05:52:54Z" finished-at="2020-08-29T05:52:54Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="FAIL" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@39fb3ab6]" name="c_m3" duration-ms="1" started-at="2020-08-29T11:22:54Z" finished-at="2020-08-29T11:22:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.testng.basics.AnnotatinSample.c_m3(AnnotatinSample.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="FAIL" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample@39fb3ab6]" name="m4" duration-ms="1" started-at="2020-08-29T11:22:54Z" finished-at="2020-08-29T11:22:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.testng.basics.AnnotatinSample.m4(AnnotatinSample.java:119)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </test> <!-- run group1 -->
+    <test name="run package1" duration-ms="28207" started-at="2020-08-29T05:52:39Z" finished-at="2020-08-29T05:53:08Z">
+      <class name="com.testng.basics.AnnotatinSample">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="setup" is-config="true" duration-ms="2684" started-at="2020-08-29T11:22:39Z" finished-at="2020-08-29T11:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.XlsSample@50f8360d]" name="setup" is-config="true" duration-ms="5689" started-at="2020-08-29T11:22:42Z" finished-at="2020-08-29T11:22:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testng.basics.XmlSample@2cb4c3ab]" name="setup" is-config="true" duration-ms="3166" started-at="2020-08-29T11:22:48Z" finished-at="2020-08-29T11:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="b_m1" duration-ms="3668" started-at="2020-08-29T11:22:51Z" finished-at="2020-08-29T11:22:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-29T11:22:55Z" finished-at="2020-08-29T11:22:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=b_m1 status=FAILURE method=AnnotatinSample.b_m1()[pri:1, instance:com.testng.basics.AnnotatinSample@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=c_m3 status=SUCCESS method=AnnotatinSample.c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="m4" duration-ms="0" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=m4 status=SUCCESS method=AnnotatinSample.m4()[pri:4, instance:com.testng.basics.AnnotatinSample@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="a_m2" duration-ms="618" started-at="2020-08-29T11:23:01Z" depends-on-methods="com.testng.basics.AnnotatinSample.b_m1" finished-at="2020-08-29T11:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_m2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-29T11:23:02Z" finished-at="2020-08-29T11:23:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=a_m2 status=SUCCESS method=AnnotatinSample.a_m2()[pri:2, instance:com.testng.basics.AnnotatinSample@61dc03ce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.AnnotatinSample@61dc03ce]" name="teardown" is-config="true" duration-ms="2829" started-at="2020-08-29T11:23:02Z" finished-at="2020-08-29T11:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.XmlSample@2cb4c3ab]" name="teardown" is-config="true" duration-ms="2815" started-at="2020-08-29T11:23:05Z" finished-at="2020-08-29T11:23:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.testng.basics.XlsSample@50f8360d]" name="teardown" is-config="true" duration-ms="0" started-at="2020-08-29T11:23:05Z" finished-at="2020-08-29T11:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.AnnotatinSample2">
+        <test-method status="PASS" signature="c_m1()[pri:3, instance:com.testng.basics.AnnotatinSample2@12843fce]" name="c_m1" duration-ms="1" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m1 -->
+        <test-method status="PASS" signature="c_m3()[pri:3, instance:com.testng.basics.AnnotatinSample2@12843fce]" name="c_m3" duration-ms="0" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_m3 -->
+        <test-method status="PASS" signature="m2()[pri:4, instance:com.testng.basics.AnnotatinSample2@12843fce]" name="m2" duration-ms="0" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+        <test-method status="PASS" signature="m4()[pri:4, instance:com.testng.basics.AnnotatinSample2@12843fce]" name="m4" duration-ms="2" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m4 -->
+      </class> <!-- com.testng.basics.AnnotatinSample2 -->
+      <class name="com.testng.basics.XlsSample">
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="640" started-at="2020-08-29T11:22:55Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="413" started-at="2020-08-29T11:22:55Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="461" started-at="2020-08-29T11:22:56Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="412" started-at="2020-08-29T11:22:56Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="425" started-at="2020-08-29T11:22:57Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test5@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="410" started-at="2020-08-29T11:22:57Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test6@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="413" started-at="2020-08-29T11:22:58Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test7@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="390" started-at="2020-08-29T11:22:58Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test8@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="396" started-at="2020-08-29T11:22:58Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test9@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="400" started-at="2020-08-29T11:22:59Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:22:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test10@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="552" started-at="2020-08-29T11:22:59Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test11@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password11]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="405" started-at="2020-08-29T11:23:00Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:23:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test12@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="403" started-at="2020-08-29T11:23:00Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test13@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password13]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="404" started-at="2020-08-29T11:23:01Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test14@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+        <test-method status="PASS" signature="b_m1(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XlsSample@50f8360d]" name="b_m1" duration-ms="417" started-at="2020-08-29T11:23:01Z" data-provider="REGISTRATION" finished-at="2020-08-29T11:23:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testusername15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test15@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[password15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[878778782]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+      </class> <!-- com.testng.basics.XlsSample -->
+      <class name="com.testng.basics.XmlSample">
+        <test-method status="SKIP" signature="b_m1(java.lang.String, java.lang.String)[pri:1, instance:com.testng.basics.XmlSample@2cb4c3ab]" name="b_m1" duration-ms="0" started-at="2020-08-29T11:23:01Z" finished-at="2020-08-29T11:23:01Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method b_m1 but has not been marked @Optional or defined
+in E:\SeleniumAutomation\2020\AbidProject\Sanity.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method b_m1 but has not been marked @Optional or defined
+in E:\SeleniumAutomation\2020\AbidProject\Sanity.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:451)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1274)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:989)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1079)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_m1 -->
+      </class> <!-- com.testng.basics.XmlSample -->
+    </test> <!-- run package1 -->
+  </suite> <!-- sanity suite -->
+</testng-results>

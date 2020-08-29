@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 70, Failures: 8, Errors: 0, Skipped: 2, Time elapsed: 53.354 sec <<< FAILURE!
+b_m1(com.testng.basics.AnnotatinSample)  Time elapsed: 4.093 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+
+c_m3(com.testng.basics.AnnotatinSample)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.c_m3(AnnotatinSample.java:111)
+
+m4(com.testng.basics.AnnotatinSample)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.m4(AnnotatinSample.java:119)
+
+b_m1(com.testng.basics.AnnotatinSample)  Time elapsed: 1.542 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+
+b_m1(com.testng.basics.AnnotatinSample)  Time elapsed: 0.072 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+
+c_m3(com.testng.basics.AnnotatinSample)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.c_m3(AnnotatinSample.java:111)
+
+m4(com.testng.basics.AnnotatinSample)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.testng.basics.AnnotatinSample.m4(AnnotatinSample.java:119)
+
+b_m1(com.testng.basics.AnnotatinSample)  Time elapsed: 0.286 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Category name is already exist. please entesdsdr new category name] but found [Category name is already exist. please enter new category name]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.testng.basics.AnnotatinSample.b_m1(AnnotatinSample.java:83)
+

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" verbose="0" name="Failed suite [sanity suite]" parallel="tests">
+  <test name="test1">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+      <class name="com.testng.basics.AnnotatinSample2"/>
+    </classes>
+  </test> <!-- test1 -->
+  <test name="run package">
+    <packages>
+      <package name="com.testng.basics"/>
+    </packages>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+      <class name="com.testng.basics.AnnotatinSample2"/>
+      <class name="com.testng.basics.ListenerTest"/>
+      <class name="com.testng.basics.XlsSample"/>
+      <class name="com.testng.basics.XmlSample"/>
+    </classes>
+  </test> <!-- run package -->
+  <test name="run method">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="c_m3"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </classes>
+  </test> <!-- run method -->
+  <test name="run group">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+    </classes>
+  </test> <!-- run group -->
+  <test name="test12">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+      <class name="com.testng.basics.AnnotatinSample2"/>
+    </classes>
+  </test> <!-- test12 -->
+  <test name="run package1">
+    <packages>
+      <package name="com.testng.basics"/>
+    </packages>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+      <class name="com.testng.basics.AnnotatinSample2"/>
+      <class name="com.testng.basics.ListenerTest"/>
+      <class name="com.testng.basics.XlsSample"/>
+      <class name="com.testng.basics.XmlSample"/>
+    </classes>
+  </test> <!-- run package1 -->
+  <test name="run method1">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="c_m3"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+    </classes>
+  </test> <!-- run method1 -->
+  <test name="run group1">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample"/>
+    </classes>
+  </test> <!-- run group1 -->
+  <test name="test1(failed)" parallel="tests">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.XmlSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.XmlSample -->
+      <class name="com.testng.basics.XlsSample">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.basics.XlsSample -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test name="run group(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="c_m3"/>
+          <include name="m4"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.XmlSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.XmlSample -->
+      <class name="com.testng.basics.XlsSample">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.basics.XlsSample -->
+    </classes>
+  </test> <!-- run group(failed) -->
+  <test name="test12(failed)" parallel="tests">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.XmlSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.XmlSample -->
+      <class name="com.testng.basics.XlsSample">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.basics.XlsSample -->
+    </classes>
+  </test> <!-- test12(failed) -->
+  <test name="run package(failed)" parallel="tests">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.XmlSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.XmlSample -->
+      <class name="com.testng.basics.XlsSample">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.basics.XlsSample -->
+    </classes>
+  </test> <!-- run package(failed) -->
+  <test name="run group1(failed)" parallel="tests">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="c_m3"/>
+          <include name="m4"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.XmlSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.testng.basics.XmlSample -->
+      <class name="com.testng.basics.XlsSample">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.basics.XlsSample -->
+    </classes>
+  </test> <!-- run group1(failed) -->
+  <test name="run package1(failed)" parallel="tests">
+    <classes>
+      <class name="com.testng.basics.AnnotatinSample">
+        <methods>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="getResult"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.AnnotatinSample -->
+      <class name="com.testng.basics.XmlSample">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="b_m1"/>
+        </methods>
+      </class> <!-- com.testng.basics.XmlSample -->
+      <class name="com.testng.basics.XlsSample">
+        <methods>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testng.basics.XlsSample -->
+    </classes>
+  </test> <!-- run package1(failed) -->
+</suite> <!-- Failed suite [sanity suite] -->
