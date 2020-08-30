@@ -1,0 +1,29 @@
+<suite name="sanity suite">
+    
+    <parameter name="browser" value="ie"></parameter>
+    
+    <test name="sanity test">
+        
+        <classes>
+            
+            <class name="com.deasliwant.admin.tests.CategoryTests"></class>
+            
+        </classes>
+        
+    </test>
+    
+    
+     <test name="sanity test1">
+        
+         <parameter name="browser" value="chrome"></parameter>
+         
+        <classes>
+            
+            <class name="com.deasliwant.admin.tests.CategoryTests"></class>
+            
+        </classes>
+        
+    </test>
+    
+    
+</suite>
